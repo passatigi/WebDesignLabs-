@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <!-- <div id="textbox">
+        <textarea name="textArea" id="textArea" placeholder="Текст вводить здесь"
+        ></textarea>
+    </div> -->
+    <div id="app">
+        <div id='mainInfo'>
+            <div id='gameHead'>Вводите данный текст</div>
+            <div id='extext'>Утка всегда была непослушной.
+                 Непослушно сидела в яйце, нетерпеливо стуча в скорлупу:
+                  тук-тук-тук! (ну, когда уже? Когда я вылуплюсь?), 
+                  в то время, как ее послушные братики и сестрички 
+                  спокойно ждали своего часа, укрытые от житейских 
+                  невзгод теплой уютной скорлупкой. Когда же, наконец, 
+                  пришло время вылупляться, наша Утка и здесь проявила себя:
+                   вышла из яйца не как все, а хвостиком вперед!</div>
+        </div>
+        <div id="textbox" class='textbox'>
+           <div   id="textArea" class="text-box" contenteditable="true" v-on:keypress="handleKeypress($event)" data-ph="Текст"></div>
+            <div><img src="img/duck.gif" class="imgtext"alt=""></div>
+        </div>
+     <div id='gameFooter'>А зачем мне эта информация</div>
+     </div>
+     <div id='fillinfowindow'>
+        <div class='infohead'>Введите свой ник</div>
+        <div class="newtextbox">
+            <div id="personNickname" class="text-box" contenteditable="true" v-on:keypress="handleKeypress($event)" data-ph="Гость"></div>
+            <div style="margin-top: 10px"><img src="img/personmove.gif" class="imgtext"alt=""></div>
+            <div class='myButton' id="okbutton">OK</div>
+        </div>
+        
+    </div>
+    <table id='results' border="1" width="100%">
+        
+    </table>
+    <script src='main.js'></script>
+</body>
+</html>

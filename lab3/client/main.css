@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#header{
+    position: fixed;
+    background-color: rgba(38, 7, 41, 0.719);
+    width: 100%;
+    top: 0;
+    right: 0;
+    left:0;
+    text-align: center;
+    padding: 10px 0px;
+
+    font-size: 45px;
+    margin-top: 0px;
+    margin:0px;
+    font-weight: 700;
+    color:rgb(236, 213, 232);
+}
+#mainInfo{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: row;
+    background-image: url('img/Exceed-D19-by-Joyetech-obzor.jpg');
+    background-size: 100% auto;
+    width: 100%;
+}
+#mainInfo > nav{
+    flex:1;
+}
+#mainInfo > main{
+    flex:3;
+    
+}
+#mainInfo > aside{
+    flex:1;
+}
+
+#nav > div{
+    padding: 10px;
+    padding-left: 20px;
+    display:block;
+    margin: 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(103, 23, 110, 0.719);
+}
+#nav > div:hover{
+    color: rgba(211, 41, 226, 0.719);
+    cursor: cell;
+}
+#aside{
+    padding: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: rgba(141, 31, 151, 0.719);
+}
+pre{
+    line-height: 35px;
+}
+
+#footer{
+    background-color: rgba(38, 7, 41, 0.719);
+    width: 100%;
+    top: 0;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 45px;
+    margin-top: 0px;
+    font-weight: 700;
+    color:rgb(236, 213, 232)
+}
+
+#maintext{
+    padding: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: rgba(141, 31, 151, 0.719);
+}
+.veipinfo{
+    width:100%;
+    margin:0;
+    padding: 10px 50px;
+}
+.veipheader{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.veipimg{
+    display:block;
+    margin:0 auto;
+    width: 600px;
+    height: 400px;
+}
+.veipdiscription{
+    font-size: 25px;
+}
+
+
+#questions{
+    border :2px  solid rgba(38, 7, 41, 0.253);
+    width: 60%;
+    margin:10px auto;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+#questimg{
+    width: 100px;
+    height: 100px;
+}
+#makequestion, #stopit{
+    background-color: rgba(38, 7, 41, 0.719);
+    color: rgba(243, 203, 247, 0.719);
+    padding:5px 10px;
+    margin:10px;
+    width: auto;
+    height: 50px;
+}
+#makequestion:hover, #stopit:hover{
+    background-color: rgba(105, 22, 112, 0.719);
+}
+#sigiimg{
+    opacity: 100%;
+    left: 0px;
+    display: block;
+    border: 0px  solid rgb(255, 0, 0);
+    width: 300px;
+    height: 200px;
+}
+#anime{
+    margin:10px auto;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+

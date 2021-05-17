@@ -1,0 +1,122 @@
+/* Remove outline on the forms and links */
+body{
+    background-color: #242b30;
+    margin: 0px;
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+#textArea{
+    flex: 9;
+    width: 450px;
+    
+}
+#personNickname{
+    flex: 8;
+    width: 400px;
+    margin:10px 0px 10px 10px; 
+}
+.textbox{
+    display:flex;
+    background-color: #43525B;
+    text-align: center;
+    padding: 10px 20px;
+    border-width: 1px;
+    border-style: groove;
+    border-color: #1d2931;
+    border-radius: 5px;
+    width: 500px;
+    font: 400 25px Arial;
+    resize: none;
+    color:#EBE3B5;
+    /* border:0; */
+    margin:0 auto;
+}
+.imgtext{
+    flex: 1;
+    margin-left: 10px;
+    width:30px;
+    height:30px;
+}
+
+#mainInfo{
+    display:flex;
+    /* padding: 10px 20px; */
+    
+    font: 400 25px Arial;
+    resize: none;
+    color:#EBE3B5;
+    border:0;
+    margin:0 auto;
+    text-align: center;
+    flex-direction: column;
+
+}
+#gameHead{
+    font-size: 40px;
+    background-color: #607481;
+    padding: 10px 20px;
+   flex:1;
+    text-align: center;
+}
+#extext{
+    padding: 20px 30px; 
+}
+
+#gameFooter{
+    font: 400 25px Arial;
+    resize: none;
+    color:#EBE3B5;
+    font-size: 40px;
+    background-color: #607481;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+.infohead{
+    font: 400 25px Arial;
+    resize: none;
+    color:#EBE3B5;
+    font-size: 40px;
+
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.myButton{
+    flex: 1;
+    background-color: #242b30;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.newtextbox{
+    display:flex;
+    background-color: #43525B;
+    text-align: center;
+    border-width: 1px;
+    border-style: groove;
+    border-color: #1d2931;
+    border-radius: 5px;
+    width: 500px;
+    font: 400 25px Arial;
+    resize: none;
+    color:#EBE3B5;
+    /* border:0; */
+    margin:0 auto;
+}
+#fillinfowindow{
+    margin: 10px;
+}
+#results{
+    font: 400 30px Arial;
+}
+.redChel{
+    color:red;
+    background-color: blue;
+}
